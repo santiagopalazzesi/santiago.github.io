@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(39, 55, 70);
+  font-family: 'Sans-serif';
+  margin: 0;
+}
+
+/*NAVBNAR*/
+
+.brheader {
+  color: solid white;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.iconito {
+  max-width: 30px;
+  padding-left: 15px;
+}
+
+.gmailimageicn {
+  max-width: 30px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: rgb(236, 240, 241);
+}
+.gmailimageicn:hover {
+  text-decoration: underline;
+}
+#gmailicon {
+  margin-right: 12px;
+}
+
+.btnnav {
+  padding-left: 15px;
+}
+
+/*BUSCADOR*/
+
+.googleblanco {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.iconitoSec {
+  max-width: 30px;
+  margin: 2px;
+}
+
+.iconitoSec2 {
+  max-width: 30px;
+  margin: 4px;
+}
+
+.formulario {
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.barrabusc {
+  width: 330px;
+}
+/*input*/
+
+input {
+  background-color: rgb(39, 55, 70);
+}
+
+input:hover {
+  background-color: rgb(28, 40, 51);
+}
+.boton {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(128, 139, 150);
+  border-radius: 15px;
+}
+.boton:hover {
+  background-color: rgb(28, 40, 51);
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Buscar {
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(86, 101, 115);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.Buscar:hover {
+  border: 1px solid rgb(28, 40, 51);
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-div {
+  display: flex;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(28, 40, 51);
+}
+
+.botoncitosdiv {
+  text-decoration: none;
+  color: rgb(128, 139, 150);
+  margin-left: 6px;
+}
+.botoncitosdiv:hover {
+  text-decoration: underline;
+}
